@@ -35,7 +35,7 @@
 .col-3, .col-4, .col-6, .col-12 {
   float: left;
 
-  /* Gutters:
+  /* Gutters:`
    * Each column is padded by half-a-gutter on each side,
    *
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
@@ -60,11 +60,12 @@
 
   /* 4 columns */
   .col-4 {
+    width: 33.33333333%;
   }
 
   /* 6 columns */
   .col-6 {
-
+    width: 50%;
   }
 
   /* 12 columns */
